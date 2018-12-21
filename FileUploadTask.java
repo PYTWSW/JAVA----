@@ -34,7 +34,7 @@ public class FileUploadTask implements Runnable {
      */
     private static String url = "jdbc:mysql://localhost:3306/wsw";
     private static String user = "root";
-    private static String pass = "pyt19980801";
+    private static String pass = "";
     private static String mysql = "com.mysql.jdbc.Driver";
     private static String addsql = "insert into file_date values(?,?)";
 
